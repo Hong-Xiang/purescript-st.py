@@ -26,7 +26,7 @@ def while_(f):
     return ap_a
 
 
-globals["while"] = while_
+globals()["while"] = while_
 
 
 def for_(lo):
